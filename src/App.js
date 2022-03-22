@@ -1,5 +1,7 @@
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 
+import Header from 'components/Header';
+
 import Login from 'pages/Login';
 import Register from 'pages/Register';
 import Dashboard from 'pages/Dashboard';
@@ -9,6 +11,7 @@ function App() {
 		<>
 			<Router>
 				<div className='container'>
+					<Header />
 					<Routes>
 						<Route path='/' element={<Dashboard />} />
 						<Route path='/login' element={<Login />} />
