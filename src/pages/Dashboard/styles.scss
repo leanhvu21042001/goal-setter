@@ -1,0 +1,9 @@
+
+.dashboard {
+  .goals {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-column-gap: 1.2rem;
+    grid-row-gap: 1.7rem;
+  }
+}
